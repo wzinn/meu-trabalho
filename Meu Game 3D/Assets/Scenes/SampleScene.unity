@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 295095505}
   - component: {fileID: 295095504}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: plata 2
   m_TagString: noChao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -288,7 +288,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8cfae1931ac6a734f833c20a41fbab8d, type: 2}
+  - {fileID: 2100000, guid: a370aff4221182d42aa4094aabe89348, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -327,8 +327,8 @@ Transform:
   m_GameObject: {fileID: 295095503}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.019237282, z: -0, w: 0.999815}
-  m_LocalPosition: {x: -8.7, y: 1.9, z: 157.9}
-  m_LocalScale: {x: 50.926083, y: 2.3134184, z: -125.78408}
+  m_LocalPosition: {x: 1.4, y: 1.9, z: 217.8}
+  m_LocalScale: {x: 50.94375, y: 2.3134184, z: -101.5065}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -720,7 +720,7 @@ GameObject:
   - component: {fileID: 806201085}
   - component: {fileID: 806201084}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: plata 3
   m_TagString: noChao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -767,7 +767,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8cfae1931ac6a734f833c20a41fbab8d, type: 2}
+  - {fileID: 2100000, guid: a370aff4221182d42aa4094aabe89348, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -806,8 +806,8 @@ Transform:
   m_GameObject: {fileID: 806201083}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.03651421, z: -0, w: 0.99933314}
-  m_LocalPosition: {x: -8, y: -14.6, z: 439.3}
-  m_LocalScale: {x: 63.716583, y: 3.6068957, z: -200.19008}
+  m_LocalPosition: {x: -9, y: 2, z: 493.9}
+  m_LocalScale: {x: 72.61206, y: 3.6068957, z: -130.52594}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -873,6 +873,8 @@ GameObject:
   - component: {fileID: 1073534424}
   - component: {fileID: 1073534423}
   - component: {fileID: 1073534422}
+  - component: {fileID: 1073534426}
+  - component: {fileID: 1073534427}
   m_Layer: 0
   m_Name: moeda
   m_TagString: Untagged
@@ -897,7 +899,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5000001
   m_Height: 2
@@ -923,7 +925,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: a85c914f0c43996488fecbcac3bb7150, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -961,13 +963,48 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073534421}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.8, y: 2.3, z: -10.4}
-  m_LocalScale: {x: -7.722517, y: 1.0663, z: 1.4874}
+  m_LocalRotation: {x: 0.081828214, y: -0.70235616, z: 0.70235616, w: 0.081828214}
+  m_LocalPosition: {x: 15.8, y: 1.08, z: 5.6}
+  m_LocalScale: {x: 2.0278394, y: 0.16198717, z: 2.1079156}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 166.709}
+--- !u!64 &1073534426
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073534421}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1073534427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073534421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823907375a8202a4e9c5c9af4c97f5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidadegiro: 50
 --- !u!1 &1458933021
 GameObject:
   m_ObjectHideFlags: 0
@@ -985,7 +1022,7 @@ GameObject:
   - component: {fileID: 1458933028}
   - component: {fileID: 1458933029}
   m_Layer: 0
-  m_Name: sphere
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,7 +1069,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: ad1e940f9fb8b2c4e96a4fda814444a8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1254,7 +1291,7 @@ GameObject:
   - component: {fileID: 1704375575}
   - component: {fileID: 1704375574}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: 'plata 1 '
   m_TagString: noChao
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1301,7 +1338,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8cfae1931ac6a734f833c20a41fbab8d, type: 2}
+  - {fileID: 2100000, guid: a370aff4221182d42aa4094aabe89348, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1459,7 +1496,7 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1458933025}
+  - {fileID: 1073534425}
   - {fileID: 1704375577}
   - {fileID: 295095507}
   - {fileID: 806201087}
-  - {fileID: 1073534425}

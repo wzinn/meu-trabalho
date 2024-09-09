@@ -8,7 +8,7 @@ public class player : MonoBehaviour
 {
     public int velocidade = 10;
     Rigidbody rb;
-    public int forcapulo = 10;
+    public int forcapulo = 8;
 
     public bool noChao ;
 
@@ -42,7 +42,7 @@ public class player : MonoBehaviour
             noChao = false;
         }
 
-        if (transform.position.y <= -10)
+        if (transform.position.y <= -15)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
